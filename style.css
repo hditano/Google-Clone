@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-main {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  padding: 15px 2px 0px 0px;
+  justify-content: flex-end;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-items {
+  padding-right: 20px;
+}
+
+.google-img-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.btn-google {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search-google {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.google-img {
+  height: 92px;
+  width: 272px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.google-search {
+  width: 600px;
+  height: 40px;
+  border:solid 1px #ccc;
+  border-radius: 30px;
+}
