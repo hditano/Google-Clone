@@ -15,7 +15,7 @@ body {
   justify-content: flex-end;
 }
 
-a:hover, a:visited, a:link, a:active {
+.navbar:hover, .navbar:visited, .navbar:link, .navbar:active {
   text-decoration: none;
   color: black;
 }
@@ -53,9 +53,26 @@ a:hover, a:visited, a:link, a:active {
 
 .search-bar {
   display: flex;
+  position: relative;
   justify-content: center;
   padding-bottom: 20px;
   padding-top: 20px;
+  min-width: 100px;
+}
+
+.voice-logo {
+  position: absolute;
+  width: 14px;
+  top: 31px;
+  left: 1110px;
+}
+
+.lupa-logo {
+  position: absolute;
+  width: 14px;
+  top: 34px;
+  left: 565px;
+
 }
 
 .google-search {
@@ -67,23 +84,63 @@ a:hover, a:visited, a:link, a:active {
 
 .google-search:focus {
   outline: none;
+  padding: 2px 50px 0px;
+  height: 20px
+  width 100%;
 }
 
 .search-btn, .lucky {
-  width: auto;
+  width: 150px;
   height: 40px;
+  background-color: #f8f9fa;
   border-color: #f8f9fa;
   border-style: none;
+  border-radius: 4px;
 }
 
 
 .search-btn:hover, .lucky:hover {
-  border-color: #f8f9fa;
+  border-color: #dbdbdb;
   cursor: pointer;
+  border-style: solid;
+  box-shadow: #dbdbdb 0px 0.5px;
 }
 
 .btn-google {
   display: flex;
   justify-content: space-around;
-  margin: 0px 600px 0px;
+  margin: 0px 685px 0px;
+}
+
+.google-offered {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 14px;
+  
+}
+
+.lang-deu, .lang-es {
+  text-decoration: none;
+}
+
+.lang-es:visited, .lang-deu:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.pre-footer {
+  display: flex;
+  padding-left: 23px;
+  align-items: flex-end;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.navbar-footer-left  {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 250px;
+  justify-content: flex-start;
 }
